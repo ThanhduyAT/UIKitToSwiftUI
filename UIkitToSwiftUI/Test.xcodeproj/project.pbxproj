@@ -31,6 +31,8 @@
 		CE6D9BBC2AE2742100480BA6 /* ViewControllerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9BBB2AE2742100480BA6 /* ViewControllerPreview.swift */; };
 		CE6D9BBE2AE2749A00480BA6 /* ViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9BBD2AE2749A00480BA6 /* ViewPreview.swift */; };
 		CE6D9BC12AE276E000480BA6 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9BC02AE276E000480BA6 /* PaddingLabel.swift */; };
+		CE6D9BC42AE27EB200480BA6 /* OTPStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9BC32AE27EB200480BA6 /* OTPStackView.swift */; };
+		CE6D9BC62AE27F7400480BA6 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9BC52AE27F7400480BA6 /* OTPTextField.swift */; };
 		CE75C3F82A4D8F8F00350F2F /* PopupSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75C3F72A4D8F8F00350F2F /* PopupSuccess.swift */; };
 		CE9B81782AA4ABFB00A9B798 /* StickHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B81772AA4ABFB00A9B798 /* StickHeaderViewController.swift */; };
 		CE9B817B2AA4AF0500A9B798 /* TabBarCollectionViewCellID.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B817A2AA4AF0500A9B798 /* TabBarCollectionViewCellID.swift */; };
@@ -110,6 +112,8 @@
 		CE6D9BBB2AE2742100480BA6 /* ViewControllerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPreview.swift; sourceTree = "<group>"; };
 		CE6D9BBD2AE2749A00480BA6 /* ViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPreview.swift; sourceTree = "<group>"; };
 		CE6D9BC02AE276E000480BA6 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		CE6D9BC32AE27EB200480BA6 /* OTPStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPStackView.swift; sourceTree = "<group>"; };
+		CE6D9BC52AE27F7400480BA6 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 		CE74F6EF2ACFF6BD0085FBB6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE75C3F72A4D8F8F00350F2F /* PopupSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupSuccess.swift; sourceTree = "<group>"; };
 		CE9B81772AA4ABFB00A9B798 /* StickHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickHeaderViewController.swift; sourceTree = "<group>"; };
@@ -340,6 +344,7 @@
 		CE6D9BB92AE2726400480BA6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CE6D9BC22AE27E9000480BA6 /* OTPStackView */,
 				CECD9EB12A43F71100AE2056 /* TapPartOfText.swift */,
 				CE6D9BBF2AE276CD00480BA6 /* CustomView */,
 				CE4E8EAB2A9DAFDC00F277E1 /* GradientView */,
@@ -369,6 +374,15 @@
 				CE6D9BC02AE276E000480BA6 /* PaddingLabel.swift */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		CE6D9BC22AE27E9000480BA6 /* OTPStackView */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D9BC32AE27EB200480BA6 /* OTPStackView.swift */,
+				CE6D9BC52AE27F7400480BA6 /* OTPTextField.swift */,
+			);
+			path = OTPStackView;
 			sourceTree = "<group>";
 		};
 		CE9B81762AA4ABDF00A9B798 /* StickyView */ = {
@@ -763,6 +777,8 @@
 				CE2BE76E2A97A62600D7AEF7 /* StickyViewController.swift in Sources */,
 				CE4E8EAF2A9DB09F00F277E1 /* UIColor+Extension.swift in Sources */,
 				CECCD3552AB01D9E008FB5AE /* CarouselCardViewController.swift in Sources */,
+				CE6D9BC42AE27EB200480BA6 /* OTPStackView.swift in Sources */,
+				CE6D9BC62AE27F7400480BA6 /* OTPTextField.swift in Sources */,
 				CE9B81782AA4ABFB00A9B798 /* StickHeaderViewController.swift in Sources */,
 				CED3FC5A2912234400A5603A /* OptionViewController.swift in Sources */,
 				CED6D91F2A9F2ED6004F3828 /* StickyHeaderCollectionViewController.swift in Sources */,
