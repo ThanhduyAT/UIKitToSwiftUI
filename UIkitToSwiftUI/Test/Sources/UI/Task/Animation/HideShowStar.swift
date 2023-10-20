@@ -56,24 +56,6 @@ class HideShowStar: UIView {
             star.tag = index
             starsContainer.addArrangedSubview(star)
         }
-        
-//        starsContainer.arrangedSubviews.enumerated().forEach { index, subview in
-//            guard let starImageView = subview as? UIImageView else {
-//                return
-//            }
-//                if index < self.selectedRate - 1 {
-//                    UIView.transition(with: starImageView, duration: 1,
-//                                      options: .transitionCrossDissolve,
-//                                      animations: {
-//                        starImageView.image = UIImage(named: "star_yellow")
-//                    })
-//                } else if index == self.selectedRate - 1 {
-//                    starImageView.image = UIImage(named: "star_yellow_selected")
-//                } else {
-//                    starImageView.image = UIImage(named: "star_black")
-//                }
-//            
-//        }
     }
     
     private func makeStarIcon() -> UIImageView {
@@ -109,20 +91,6 @@ class HideShowStar: UIView {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
     }
-    
-//    private func changeEmotionImage(number: Int) {
-//        emotionImageView.image = UIImage(named: viewModel.ratingDataDefault[number].image)
-//        emotionLabel.text = viewModel.ratingDataDefault[number].title
-//        emotionDesLabel.text = viewModel.ratingDataDefault[number].desc
-//    }
-    
-//    @objc func starAction() {
-//        UIView.transition(with: starView, duration: 0.3,
-//                          options: .transitionCrossDissolve,
-//                          animations: {
-//                        self.starView.setImage(UIImage(named: "star_yellow"), for: .normal)
-//                      })
-//    }
     
     @objc private func didSelectRate(gesture: UITapGestureRecognizer) {
         let location = gesture.location(in: starsContainer)

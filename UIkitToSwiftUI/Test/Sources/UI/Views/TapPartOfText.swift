@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import SwiftUI
 
 class TapPartOfText: UIView {
     private lazy var textString: UILabel = {
@@ -33,8 +34,8 @@ class TapPartOfText: UIView {
         textString.snp.makeConstraints { make in
             make.left.right.bottom.top.equalToSuperview()
         }
-//        configDescriptionLabel()
-        config2()
+        configDescriptionLabel()
+//        config2()
     }
     
     required init?(coder: NSCoder) {
@@ -115,6 +116,14 @@ extension UITapGestureRecognizer {
         let locationOfTouchInTextContainer = CGPoint(x: locationOfTouchInLabel.x - textContainerOffset.x, y: locationOfTouchInLabel.y - textContainerOffset.y)
         let indexOfCharacter = layoutManager.characterIndex(for: locationOfTouchInTextContainer, in: textContainer, fractionOfDistanceBetweenInsertionPoints: nil)
         return NSLocationInRange(indexOfCharacter, targetRange)
+    }
+}
+
+struct TapPartOfText_Preview: PreviewProvider {
+    static var previews: some View {
+        ViewPreview {
+            TapPartOfText()
+        }
     }
 }
 

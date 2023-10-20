@@ -16,12 +16,10 @@ class DynamicHeightCollectionView: UICollectionView {
         if bounds.size != intrinsicContentSize {
             self.invalidateIntrinsicContentSize()
         }
-        
     }
     
     override var intrinsicContentSize: CGSize {
         return collectionViewLayout.collectionViewContentSize
-        
     }
 }
 

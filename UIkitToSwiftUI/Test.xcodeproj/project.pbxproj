@@ -16,7 +16,6 @@
 		CE0613DF2A8B58C9001BEAEB /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0613DE2A8B58C9001BEAEB /* SkeletonLoadable.swift */; };
 		CE076D552951A0650063F45B /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE076D542951A0650063F45B /* CustomSegmentedControl.swift */; };
 		CE2BE7522A9312A700D7AEF7 /* PinViewToTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BE7512A9312A700D7AEF7 /* PinViewToTop.swift */; };
-		CE2BE7552A933DA100D7AEF7 /* ChangeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BE7542A933DA100D7AEF7 /* ChangeSliderView.swift */; };
 		CE2BE7612A96591000D7AEF7 /* CollectionViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BE7602A96591000D7AEF7 /* CollectionViewTest.swift */; };
 		CE2BE76E2A97A62600D7AEF7 /* StickyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2BE76D2A97A62600D7AEF7 /* StickyViewController.swift */; };
 		CE3BA4B12A497A7700C2DE8F /* ResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3BA4B02A497A7700C2DE8F /* ResponseView.swift */; };
@@ -24,35 +23,32 @@
 		CE45857C2AB2E3F300251B6C /* TbStickyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45857A2AB2E3F200251B6C /* TbStickyHeader.swift */; };
 		CE45857E2AB2E49500251B6C /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45857D2AB2E49500251B6C /* UITableView+Extension.swift */; };
 		CE4585802AB2E5D800251B6C /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45857F2AB2E5D800251B6C /* UIScrollView+Extension.swift */; };
-		CE4585832AB2EEB900251B6C /* CutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4585822AB2EEB900251B6C /* CutView.swift */; };
 		CE4E8E992A988A8700F277E1 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E8E982A988A8700F277E1 /* UIView+Extension.swift */; };
 		CE4E8EA32A9CA7B700F277E1 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E8EA22A9CA7B700F277E1 /* CALayer+Extension.swift */; };
 		CE4E8EA52A9CABD600F277E1 /* UIBezierPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E8EA42A9CABD600F277E1 /* UIBezierPath+Extension.swift */; };
 		CE4E8EAD2A9DAFF100F277E1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E8EAC2A9DAFF100F277E1 /* GradientView.swift */; };
 		CE4E8EAF2A9DB09F00F277E1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E8EAE2A9DB09F00F277E1 /* UIColor+Extension.swift */; };
+		CE6D9BBC2AE2742100480BA6 /* ViewControllerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9BBB2AE2742100480BA6 /* ViewControllerPreview.swift */; };
+		CE6D9BBE2AE2749A00480BA6 /* ViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9BBD2AE2749A00480BA6 /* ViewPreview.swift */; };
+		CE6D9BC12AE276E000480BA6 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9BC02AE276E000480BA6 /* PaddingLabel.swift */; };
 		CE75C3F82A4D8F8F00350F2F /* PopupSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75C3F72A4D8F8F00350F2F /* PopupSuccess.swift */; };
-		CE75C3FF2A53CE3A00350F2F /* SegmentControllerBottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75C3FE2A53CE3A00350F2F /* SegmentControllerBottomLine.swift */; };
 		CE9B81782AA4ABFB00A9B798 /* StickHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B81772AA4ABFB00A9B798 /* StickHeaderViewController.swift */; };
 		CE9B817B2AA4AF0500A9B798 /* TabBarCollectionViewCellID.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B817A2AA4AF0500A9B798 /* TabBarCollectionViewCellID.swift */; };
 		CE9B817D2AA4B1B000A9B798 /* ContentViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B817C2AA4B1B000A9B798 /* ContentViewController1.swift */; };
 		CE9B817F2AA4B2A000A9B798 /* TabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B817E2AA4B2A000A9B798 /* TabTableViewCell.swift */; };
 		CE9B81822AA9B34400A9B798 /* CardPagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B81812AA9B34400A9B798 /* CardPagingLayout.swift */; };
 		CE9B81842AA9B3B600A9B798 /* CardViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B81832AA9B3B600A9B798 /* CardViewAnimation.swift */; };
-		CEC8D3982994B3D3004BE3F2 /* AutoLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC8D3972994B3D3004BE3F2 /* AutoLayoutView.swift */; };
 		CECAB1312AB39687001C5D9D /* CollectionViewInsideTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECAB1302AB39687001C5D9D /* CollectionViewInsideTableView.swift */; };
 		CECCD3532AB01CC5008FB5AE /* CarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCD3522AB01CC5008FB5AE /* CarouselFlowLayout.swift */; };
 		CECCD3552AB01D9E008FB5AE /* CarouselCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCD3542AB01D9E008FB5AE /* CarouselCardViewController.swift */; };
 		CECCD3762AB2E284008FB5AE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCD3752AB2E284008FB5AE /* TableViewController.swift */; };
-		CECD9E982A3AA87B00AE2056 /* FrontToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD9E972A3AA87B00AE2056 /* FrontToView.swift */; };
 		CECD9E9A2A3AA9A300AE2056 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD9E992A3AA9A300AE2056 /* Preview.swift */; };
-		CECD9EA32A3C184E00AE2056 /* ReplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD9EA22A3C184E00AE2056 /* ReplyView.swift */; };
 		CECD9EA82A4044F500AE2056 /* CreateXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD9EA72A4044F500AE2056 /* CreateXibView.swift */; };
 		CECD9EAE2A40457700AE2056 /* CreateXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECD9EAD2A40457700AE2056 /* CreateXibView.xib */; };
 		CECD9EB22A43F71100AE2056 /* TapPartOfText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD9EB12A43F71100AE2056 /* TapPartOfText.swift */; };
-		CED28A752946FEE100D7CA63 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED28A742946FEE100D7CA63 /* TestView.swift */; };
 		CED3FC562912234400A5603A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3FC552912234400A5603A /* AppDelegate.swift */; };
 		CED3FC582912234400A5603A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3FC572912234400A5603A /* SceneDelegate.swift */; };
-		CED3FC5A2912234400A5603A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3FC592912234400A5603A /* ViewController.swift */; };
+		CED3FC5A2912234400A5603A /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3FC592912234400A5603A /* OptionViewController.swift */; };
 		CED3FC5D2912234400A5603A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED3FC5B2912234400A5603A /* Main.storyboard */; };
 		CED3FC5F2912234600A5603A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED3FC5E2912234600A5603A /* Assets.xcassets */; };
 		CED3FC622912234600A5603A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED3FC602912234600A5603A /* LaunchScreen.storyboard */; };
@@ -64,7 +60,6 @@
 		CED6D91F2A9F2ED6004F3828 /* StickyHeaderCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6D91E2A9F2ED6004F3828 /* StickyHeaderCollectionViewController.swift */; };
 		CED6D9212A9F3737004F3828 /* StickyFooterCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED6D9202A9F3737004F3828 /* StickyFooterCollectionViewFlowLayout.swift */; };
 		CEDF05C72A600428005D9289 /* HideShowStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF05C62A600428005D9289 /* HideShowStar.swift */; };
-		CEE12A922949DE2700812AFC /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE12A912949DE2700812AFC /* ScrollView.swift */; };
 		CEFC9D732A5430FB00AE5E0F /* UIAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC9D722A5430FB00AE5E0F /* UIAnimation.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,7 +95,6 @@
 		CE0613DE2A8B58C9001BEAEB /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
 		CE076D542951A0650063F45B /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
 		CE2BE7512A9312A700D7AEF7 /* PinViewToTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewToTop.swift; sourceTree = "<group>"; };
-		CE2BE7542A933DA100D7AEF7 /* ChangeSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSliderView.swift; sourceTree = "<group>"; };
 		CE2BE7602A96591000D7AEF7 /* CollectionViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTest.swift; sourceTree = "<group>"; };
 		CE2BE76D2A97A62600D7AEF7 /* StickyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyViewController.swift; sourceTree = "<group>"; };
 		CE3BA4B02A497A7700C2DE8F /* ResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseView.swift; sourceTree = "<group>"; };
@@ -108,37 +102,34 @@
 		CE45857A2AB2E3F200251B6C /* TbStickyHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TbStickyHeader.swift; sourceTree = "<group>"; };
 		CE45857D2AB2E49500251B6C /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		CE45857F2AB2E5D800251B6C /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
-		CE4585822AB2EEB900251B6C /* CutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutView.swift; sourceTree = "<group>"; };
 		CE4E8E982A988A8700F277E1 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		CE4E8EA22A9CA7B700F277E1 /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
 		CE4E8EA42A9CABD600F277E1 /* UIBezierPath+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Extension.swift"; sourceTree = "<group>"; };
 		CE4E8EAC2A9DAFF100F277E1 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		CE4E8EAE2A9DB09F00F277E1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CE6D9BBB2AE2742100480BA6 /* ViewControllerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPreview.swift; sourceTree = "<group>"; };
+		CE6D9BBD2AE2749A00480BA6 /* ViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPreview.swift; sourceTree = "<group>"; };
+		CE6D9BC02AE276E000480BA6 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
 		CE74F6EF2ACFF6BD0085FBB6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CE75C3F72A4D8F8F00350F2F /* PopupSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupSuccess.swift; sourceTree = "<group>"; };
-		CE75C3FE2A53CE3A00350F2F /* SegmentControllerBottomLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControllerBottomLine.swift; sourceTree = "<group>"; };
 		CE9B81772AA4ABFB00A9B798 /* StickHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickHeaderViewController.swift; sourceTree = "<group>"; };
 		CE9B817A2AA4AF0500A9B798 /* TabBarCollectionViewCellID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCollectionViewCellID.swift; sourceTree = "<group>"; };
 		CE9B817C2AA4B1B000A9B798 /* ContentViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController1.swift; sourceTree = "<group>"; };
 		CE9B817E2AA4B2A000A9B798 /* TabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTableViewCell.swift; sourceTree = "<group>"; };
 		CE9B81812AA9B34400A9B798 /* CardPagingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPagingLayout.swift; sourceTree = "<group>"; };
 		CE9B81832AA9B3B600A9B798 /* CardViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewAnimation.swift; sourceTree = "<group>"; };
-		CEC8D3972994B3D3004BE3F2 /* AutoLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutView.swift; sourceTree = "<group>"; };
 		CECAB1302AB39687001C5D9D /* CollectionViewInsideTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewInsideTableView.swift; sourceTree = "<group>"; };
 		CECCD3522AB01CC5008FB5AE /* CarouselFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselFlowLayout.swift; sourceTree = "<group>"; };
 		CECCD3542AB01D9E008FB5AE /* CarouselCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCardViewController.swift; sourceTree = "<group>"; };
 		CECCD3752AB2E284008FB5AE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		CECD9E972A3AA87B00AE2056 /* FrontToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontToView.swift; sourceTree = "<group>"; };
 		CECD9E992A3AA9A300AE2056 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
-		CECD9EA22A3C184E00AE2056 /* ReplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyView.swift; sourceTree = "<group>"; };
 		CECD9EA72A4044F500AE2056 /* CreateXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateXibView.swift; sourceTree = "<group>"; };
 		CECD9EAD2A40457700AE2056 /* CreateXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateXibView.xib; sourceTree = "<group>"; };
 		CECD9EB12A43F71100AE2056 /* TapPartOfText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapPartOfText.swift; sourceTree = "<group>"; };
-		CED28A742946FEE100D7CA63 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		CED3FC522912234400A5603A /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED3FC552912234400A5603A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED3FC572912234400A5603A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CED3FC592912234400A5603A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED3FC592912234400A5603A /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
 		CED3FC5C2912234400A5603A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED3FC5E2912234600A5603A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED3FC612912234600A5603A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,7 +144,6 @@
 		CED6D91E2A9F2ED6004F3828 /* StickyHeaderCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderCollectionViewController.swift; sourceTree = "<group>"; };
 		CED6D9202A9F3737004F3828 /* StickyFooterCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyFooterCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		CEDF05C62A600428005D9289 /* HideShowStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideShowStar.swift; sourceTree = "<group>"; };
-		CEE12A912949DE2700812AFC /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 		CEFC9D722A5430FB00AE5E0F /* UIAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimation.swift; sourceTree = "<group>"; };
 		EDC72BADDF3869F0D87C5E4F /* Pods-Test-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-TestUITests.release.xcconfig"; path = "Target Support Files/Pods-Test-TestUITests/Pods-Test-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -232,14 +222,6 @@
 			path = HeaderView;
 			sourceTree = "<group>";
 		};
-		CE2BE7532A933D9000D7AEF7 /* Slider */ = {
-			isa = PBXGroup;
-			children = (
-				CE2BE7542A933DA100D7AEF7 /* ChangeSliderView.swift */,
-			);
-			path = Slider;
-			sourceTree = "<group>";
-		};
 		CE3BA4AF2A497A6D00C2DE8F /* Task */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,15 +242,7 @@
 			path = "sticky header";
 			sourceTree = "<group>";
 		};
-		CE4585812AB2EEB000251B6C /* CutView */ = {
-			isa = PBXGroup;
-			children = (
-				CE4585822AB2EEB900251B6C /* CutView.swift */,
-			);
-			path = CutView;
-			sourceTree = "<group>";
-		};
-		CE4E8E972A988A7600F277E1 /* Extension */ = {
+		CE4E8E972A988A7600F277E1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				CE4E8E982A988A8700F277E1 /* UIView+Extension.swift */,
@@ -278,7 +252,7 @@
 				CE45857D2AB2E49500251B6C /* UITableView+Extension.swift */,
 				CE45857F2AB2E5D800251B6C /* UIScrollView+Extension.swift */,
 			);
-			path = Extension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		CE4E8EAB2A9DAFDC00F277E1 /* GradientView */ = {
@@ -287,6 +261,114 @@
 				CE4E8EAC2A9DAFF100F277E1 /* GradientView.swift */,
 			);
 			path = GradientView;
+			sourceTree = "<group>";
+		};
+		CE6D9BB12AE26F7500480BA6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D9BB42AE26FB900480BA6 /* Helpers */,
+				CE4E8E972A988A7600F277E1 /* Extensions */,
+				CE6D9BB32AE26FB300480BA6 /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CE6D9BB22AE26F9E00480BA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D9BB62AE270D400480BA6 /* Assets */,
+				CE6D9BB52AE270C000480BA6 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE6D9BB32AE26FB300480BA6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D9BB92AE2726400480BA6 /* Views */,
+				CE6D9BB82AE2725B00480BA6 /* ViewControllers */,
+				CE3BA4AF2A497A6D00C2DE8F /* Task */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CE6D9BB42AE26FB900480BA6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CE74F6EF2ACFF6BD0085FBB6 /* MyPlayground.playground */,
+				CECD9E992A3AA9A300AE2056 /* Preview.swift */,
+				CE6D9BBB2AE2742100480BA6 /* ViewControllerPreview.swift */,
+				CE6D9BBD2AE2749A00480BA6 /* ViewPreview.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CE6D9BB52AE270C000480BA6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CED3FC602912234600A5603A /* LaunchScreen.storyboard */,
+				CED3FC5B2912234400A5603A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE6D9BB62AE270D400480BA6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CED3FC5E2912234600A5603A /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CE6D9BB72AE2712F00480BA6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CED3FC572912234400A5603A /* SceneDelegate.swift */,
+				CED3FC552912234400A5603A /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CE6D9BB82AE2725B00480BA6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D9BBA2AE272E600480BA6 /* Test */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE6D9BB92AE2726400480BA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CECD9EB12A43F71100AE2056 /* TapPartOfText.swift */,
+				CE6D9BBF2AE276CD00480BA6 /* CustomView */,
+				CE4E8EAB2A9DAFDC00F277E1 /* GradientView */,
+				CECD9EA62A40445800AE2056 /* CreateXib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE6D9BBA2AE272E600480BA6 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				CE076D542951A0650063F45B /* CustomSegmentedControl.swift */,
+				CEFC9D722A5430FB00AE5E0F /* UIAnimation.swift */,
+				CE0613D72A8B56A4001BEAEB /* SkeletonLoading */,
+				CE2BE7502A93129900D7AEF7 /* HeaderView */,
+				CE9B81902AAF245200A9B798 /* CareuselCard */,
+				CE9B81802AA9B32F00A9B798 /* CardView */,
+				CED3FC592912234400A5603A /* OptionViewController.swift */,
+				CE2BE7602A96591000D7AEF7 /* CollectionViewTest.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		CE6D9BBF2AE276CD00480BA6 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				CE6D9BC02AE276E000480BA6 /* PaddingLabel.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		CE9B81762AA4ABDF00A9B798 /* StickyView */ = {
@@ -378,30 +460,10 @@
 		CED3FC542912234400A5603A /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				CE4585812AB2EEB000251B6C /* CutView */,
-				CE4E8EAB2A9DAFDC00F277E1 /* GradientView */,
-				CEFC9D712A5430E800AE5E0F /* Animation */,
-				CED3FC552912234400A5603A /* AppDelegate.swift */,
-				CED3FC5E2912234600A5603A /* Assets.xcassets */,
-				CEC8D3972994B3D3004BE3F2 /* AutoLayoutView.swift */,
-				CE2BE7602A96591000D7AEF7 /* CollectionViewTest.swift */,
-				CECD9EA62A40445800AE2056 /* CreateXib */,
-				CE076D542951A0650063F45B /* CustomSegmentedControl.swift */,
-				CE4E8E972A988A7600F277E1 /* Extension */,
-				CECD9E972A3AA87B00AE2056 /* FrontToView.swift */,
+				CE6D9BB72AE2712F00480BA6 /* AppDelegate */,
 				CED3FC632912234600A5603A /* Info.plist */,
-				CED3FC602912234600A5603A /* LaunchScreen.storyboard */,
-				CED3FC5B2912234400A5603A /* Main.storyboard */,
-				CECD9E992A3AA9A300AE2056 /* Preview.swift */,
-				CECD9EA22A3C184E00AE2056 /* ReplyView.swift */,
-				CED3FC572912234400A5603A /* SceneDelegate.swift */,
-				CEE12A912949DE2700812AFC /* ScrollView.swift */,
-				CE75C3FE2A53CE3A00350F2F /* SegmentControllerBottomLine.swift */,
-				CECD9EB12A43F71100AE2056 /* TapPartOfText.swift */,
-				CE3BA4AF2A497A6D00C2DE8F /* Task */,
-				CED28A742946FEE100D7CA63 /* TestView.swift */,
-				CED3FC592912234400A5603A /* ViewController.swift */,
-				CE74F6EF2ACFF6BD0085FBB6 /* MyPlayground.playground */,
+				CE6D9BB22AE26F9E00480BA6 /* Resources */,
+				CE6D9BB12AE26F7500480BA6 /* Sources */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -445,19 +507,6 @@
 			isa = PBXGroup;
 			children = (
 				CEDF05C62A600428005D9289 /* HideShowStar.swift */,
-			);
-			path = Animation;
-			sourceTree = "<group>";
-		};
-		CEFC9D712A5430E800AE5E0F /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				CE9B81902AAF245200A9B798 /* CareuselCard */,
-				CE9B81802AA9B32F00A9B798 /* CardView */,
-				CE2BE7532A933D9000D7AEF7 /* Slider */,
-				CE2BE7502A93129900D7AEF7 /* HeaderView */,
-				CE0613D72A8B56A4001BEAEB /* SkeletonLoading */,
-				CEFC9D722A5430FB00AE5E0F /* UIAnimation.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -709,22 +758,19 @@
 				CED6D91B2A9F1C49004F3828 /* StickyHeaderCollectionViewFlowLayout.swift in Sources */,
 				CE4E8EA32A9CA7B700F277E1 /* CALayer+Extension.swift in Sources */,
 				CEDF05C72A600428005D9289 /* HideShowStar.swift in Sources */,
-				CEC8D3982994B3D3004BE3F2 /* AutoLayoutView.swift in Sources */,
-				CED28A752946FEE100D7CA63 /* TestView.swift in Sources */,
+				CE6D9BBC2AE2742100480BA6 /* ViewControllerPreview.swift in Sources */,
 				CE0613D92A8B56E4001BEAEB /* SkeletonViewController.swift in Sources */,
 				CE2BE76E2A97A62600D7AEF7 /* StickyViewController.swift in Sources */,
-				CECD9E982A3AA87B00AE2056 /* FrontToView.swift in Sources */,
 				CE4E8EAF2A9DB09F00F277E1 /* UIColor+Extension.swift in Sources */,
 				CECCD3552AB01D9E008FB5AE /* CarouselCardViewController.swift in Sources */,
 				CE9B81782AA4ABFB00A9B798 /* StickHeaderViewController.swift in Sources */,
-				CED3FC5A2912234400A5603A /* ViewController.swift in Sources */,
+				CED3FC5A2912234400A5603A /* OptionViewController.swift in Sources */,
 				CED6D91F2A9F2ED6004F3828 /* StickyHeaderCollectionViewController.swift in Sources */,
 				CE45857E2AB2E49500251B6C /* UITableView+Extension.swift in Sources */,
 				CE0613DB2A8B584C001BEAEB /* CustomCell.swift in Sources */,
 				CE45857C2AB2E3F300251B6C /* TbStickyHeader.swift in Sources */,
 				CECCD3762AB2E284008FB5AE /* TableViewController.swift in Sources */,
 				CED6D91D2A9F2E12004F3828 /* StickyHeader.swift in Sources */,
-				CE75C3FF2A53CE3A00350F2F /* SegmentControllerBottomLine.swift in Sources */,
 				CE4585802AB2E5D800251B6C /* UIScrollView+Extension.swift in Sources */,
 				CE2BE7612A96591000D7AEF7 /* CollectionViewTest.swift in Sources */,
 				CE9B81822AA9B34400A9B798 /* CardPagingLayout.swift in Sources */,
@@ -734,23 +780,21 @@
 				CE9B81842AA9B3B600A9B798 /* CardViewAnimation.swift in Sources */,
 				CE4E8E992A988A8700F277E1 /* UIView+Extension.swift in Sources */,
 				CECCD3532AB01CC5008FB5AE /* CarouselFlowLayout.swift in Sources */,
+				CE6D9BC12AE276E000480BA6 /* PaddingLabel.swift in Sources */,
 				CED6D9212A9F3737004F3828 /* StickyFooterCollectionViewFlowLayout.swift in Sources */,
 				CECD9EA82A4044F500AE2056 /* CreateXibView.swift in Sources */,
 				CE2BE7522A9312A700D7AEF7 /* PinViewToTop.swift in Sources */,
-				CEE12A922949DE2700812AFC /* ScrollView.swift in Sources */,
 				CE0613DF2A8B58C9001BEAEB /* SkeletonLoadable.swift in Sources */,
 				CEFC9D732A5430FB00AE5E0F /* UIAnimation.swift in Sources */,
 				CECD9EB22A43F71100AE2056 /* TapPartOfText.swift in Sources */,
 				CECD9E9A2A3AA9A300AE2056 /* Preview.swift in Sources */,
+				CE6D9BBE2AE2749A00480BA6 /* ViewPreview.swift in Sources */,
 				CECAB1312AB39687001C5D9D /* CollectionViewInsideTableView.swift in Sources */,
 				CE3BA4B12A497A7700C2DE8F /* ResponseView.swift in Sources */,
 				CED3FC582912234400A5603A /* SceneDelegate.swift in Sources */,
-				CECD9EA32A3C184E00AE2056 /* ReplyView.swift in Sources */,
 				CE4E8EAD2A9DAFF100F277E1 /* GradientView.swift in Sources */,
 				CE9B817F2AA4B2A000A9B798 /* TabTableViewCell.swift in Sources */,
-				CE2BE7552A933DA100D7AEF7 /* ChangeSliderView.swift in Sources */,
 				CE4E8EA52A9CABD600F277E1 /* UIBezierPath+Extension.swift in Sources */,
-				CE4585832AB2EEB900251B6C /* CutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

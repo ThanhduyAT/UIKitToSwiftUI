@@ -8,8 +8,9 @@
 import UIKit
 import AMPopTip
 import SnapKit
+import SwiftUI
 
-class ViewController: UIViewController {
+class OptionViewController: UIViewController {
     let popTip = PopTip()
     var direction = PopTipDirection.up
     var topRightDirection = PopTipDirection.down
@@ -171,42 +172,6 @@ class OptionView: UIView {
     }
 }
 //
-
-
-import UIKit
-import SwiftUI
-
-struct ViewControllerPreview: UIViewControllerRepresentable {
-    let viewControllerBuilder: () -> UIViewController
-
-    init(_ viewControllerBuilder: @escaping () -> UIViewController) {
-        self.viewControllerBuilder = viewControllerBuilder
-    }
-    
-    func makeUIViewController(context: Context) -> some UIViewController {
-        return viewControllerBuilder()
-    }
-
-    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
-        // Not needed
-    }
-}
-
-struct ViewPreview: UIViewRepresentable {
-    let viewBuilder: () -> UIView
-    
-    init(viewBuilder: @escaping () -> UIView) {
-        self.viewBuilder = viewBuilder
-    }
-    
-    func makeUIView(context: Context) -> some UIView {
-        return viewBuilder()
-    }
-    
-    func updateUIView(_ uiView: UIViewType, context: Context) {
-        
-    }
-}
 
 final class PreviewViewController: UIViewController {
 
@@ -517,5 +482,13 @@ class DashedCircleView: UIView {
             }
             shapeLayer.path = path.cgPath
         }
+}
+
+struct OptionViewController_Preview: PreviewProvider {
+    static var previews: some View {
+        ViewControllerPreview {
+            OptionViewController()
+        }
+    }
 }
 

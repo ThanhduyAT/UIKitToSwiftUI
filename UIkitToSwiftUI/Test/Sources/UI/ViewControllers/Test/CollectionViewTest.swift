@@ -40,30 +40,7 @@ class CollectionViewTest: UIViewController {
         
         navigationController?.title = "12312"
         self.title = "okokokosdfasdf"
-        
-//        navigationBar.topItem.title = "some title"
         navigationController?.navigationBar.topItem?.title = "sdf"
-//
-//        view.addSubview(collectionView)
-//        collectionView.snp.makeConstraints { make in
-////            make.top.equalTo(view.safeAreaInsets.top)
-//            make.top.equalToSuperview()
-//            make.bottom.right.left.equalToSuperview()
-//        }
-        
-//        NSLayoutConstraint.activate([
-//            collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-//            collectionView.rightAnchor.constraint(equalTo: view.rightAnchor),
-//            collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-//            collectionView.topAnchor.constraint(equalTo: view.lay.topAnchor)
-//        ])
-//        view.addSubview(testView)
-//        testView.snp.makeConstraints { make in
-//
-//            make.top.equalTo(view.safeAreaInsets.top)
-//            make.left.right.equalToSuperview()
-//            make.height.equalTo(300)
-//        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
