@@ -30,7 +30,6 @@ class StickyViewController: UIViewController {
         let v = UIView()
         v.backgroundColor = .clear
         v.layer.cornerRadius = 20
-//        v.roundCorners(corners: [.topLeft, .topRight], radius: 30)
         v.translatesAutoresizingMaskIntoConstraints = false
         return v
     }()
@@ -52,7 +51,6 @@ class StickyViewController: UIViewController {
         collection.register(of: StickyCell.self)
         collection.delegate = self
         collection.dataSource = self
-//        collection.layer.cornerRadius = 30
         collection.isScrollEnabled = false
         collection.bounces = false
         collection.translatesAutoresizingMaskIntoConstraints = false
