@@ -1,21 +1,39 @@
 import UIKit
 
-struct Person {
-    var name: String
+class A {
+    var b: B?
+    init() {
+        print("init A")
+    }
     
-    init(name: String) {
-        self.name = name
-        print("The person is allocated memory.")
+    deinit {
+        print("deinit A")
     }
 }
 
-var a = ["Duy", "Van", "Minh"]
-print(a[1])
-var b = a
-a[1] = "Linh"
+class B {
+    var a: A?
+    
+    init() {
+        print("init B")
+    }
+    
+    deinit {
+        print("deinit B")
+    }
+}
 
-print(b[1])
-print(a[1])
+var objectA: A? = A()
+var objectB: B? = B()
+
+objectA?.b = objectB
+objectB?.a = objectA
+
+objectA = nil
+objectB = nil
+
+
+
 
 
 
