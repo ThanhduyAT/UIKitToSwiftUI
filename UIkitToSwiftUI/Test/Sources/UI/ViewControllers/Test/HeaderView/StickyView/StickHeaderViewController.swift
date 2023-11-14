@@ -50,6 +50,9 @@ class StickHeaderViewController: UIViewController {
     private var headerViewHeightConstraint: CGFloat = 200
     private var pageCollection = PageCollection()
     
+    private var currentIndex = 0
+    var lastPosition: CGFloat = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
@@ -97,6 +100,19 @@ class StickHeaderViewController: UIViewController {
                                                       options: nil)
         pageViewController.dataSource = self
         pageViewController.delegate = self
+        
+//        for view in self.pageViewController.view.subviews {
+//            if let scrollView = view as? UIScrollView {
+//                scrollView.bounces = false
+//            }
+//        }
+        
+        for view in self.pageViewController.view.subviews {
+            if view is UIScrollView {
+                (view as! UIScrollView).delegate =  self
+                break
+            }
+        }
     }
     
     func populateBottomView() {
@@ -310,6 +326,8 @@ extension StickHeaderViewController: UIPageViewControllerDelegate {
         
         guard let currentVCIndex = pageCollection.pages.firstIndex(where: { $0.vc == currentVC }) else { return }
         
+        self.currentIndex = currentVCIndex
+        
         let indexPathAtCollectionView = IndexPath(item: currentVCIndex, section: 0)
         
         scrollSelectedTabView(toIndexPath: indexPathAtCollectionView)
@@ -317,8 +335,23 @@ extension StickHeaderViewController: UIPageViewControllerDelegate {
                                           at: .centeredHorizontally,
                                           animated: true)
     }
-    
-    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+
+}
+
+extension StickHeaderViewController: UIScrollViewDelegate {
+//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//        self.lastPosition = scrollView.contentOffset.x
+//        
+//        if (currentIndex == pageCollection.pages.count - 1) && (lastPosition > scrollView.frame.width) {
+//            scrollView.contentOffset.x = scrollView.frame.width
+//            return
+//            
+//        } else if currentIndex == 0 && lastPosition < scrollView.frame.width {
+//            scrollView.contentOffset.x = scrollView.frame.width
+//            return
+//        }
+//    }
+    func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         scrollView.bounces = false
     }
 }

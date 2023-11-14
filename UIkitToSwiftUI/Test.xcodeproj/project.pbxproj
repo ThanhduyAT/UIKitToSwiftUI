@@ -28,6 +28,8 @@
 		C6A0F50B2B01DD02002E8E55 /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A0F50A2B01DD02002E8E55 /* CustomPageViewController.swift */; };
 		C6A0F50D2B01E15F002E8E55 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A0F50C2B01E15E002E8E55 /* ColorViewController.swift */; };
 		C6A0F5102B01E2A4002E8E55 /* UsePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A0F50F2B01E2A4002E8E55 /* UsePageViewController.swift */; };
+		C6C3A8BF2B031D1B001DFA97 /* SegmentedControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3A8BE2B031D1B001DFA97 /* SegmentedControlCell.swift */; };
+		C6C3A8C12B03554C001DFA97 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3A8C02B03554C001DFA97 /* ParentViewController.swift */; };
 		CE0613D92A8B56E4001BEAEB /* SkeletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0613D82A8B56E4001BEAEB /* SkeletonViewController.swift */; };
 		CE0613DB2A8B584C001BEAEB /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0613DA2A8B584C001BEAEB /* CustomCell.swift */; };
 		CE0613DD2A8B5878001BEAEB /* SkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0613DC2A8B5878001BEAEB /* SkeletonCell.swift */; };
@@ -126,6 +128,8 @@
 		C6A0F50A2B01DD02002E8E55 /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
 		C6A0F50C2B01E15E002E8E55 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		C6A0F50F2B01E2A4002E8E55 /* UsePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsePageViewController.swift; sourceTree = "<group>"; };
+		C6C3A8BE2B031D1B001DFA97 /* SegmentedControlCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlCell.swift; sourceTree = "<group>"; };
+		C6C3A8C02B03554C001DFA97 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		CE0613D82A8B56E4001BEAEB /* SkeletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonViewController.swift; sourceTree = "<group>"; };
 		CE0613DA2A8B584C001BEAEB /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		CE0613DC2A8B5878001BEAEB /* SkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCell.swift; sourceTree = "<group>"; };
@@ -323,6 +327,7 @@
 		C6A0F5052B01D8E0002E8E55 /* CustomSegmentedControlOCB */ = {
 			isa = PBXGroup;
 			children = (
+				C6C3A8BD2B031D04001DFA97 /* Cell */,
 				C69DDA1C2B025C6D00BAFF8D /* Model */,
 				C6A0F5092B01DCBE002E8E55 /* ViewController */,
 				C6A0F5062B01D8F5002E8E55 /* View */,
@@ -345,8 +350,17 @@
 				C6A0F50A2B01DD02002E8E55 /* CustomPageViewController.swift */,
 				C6A0F50C2B01E15E002E8E55 /* ColorViewController.swift */,
 				C6A0F50F2B01E2A4002E8E55 /* UsePageViewController.swift */,
+				C6C3A8C02B03554C001DFA97 /* ParentViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C6C3A8BD2B031D04001DFA97 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C6C3A8BE2B031D1B001DFA97 /* SegmentedControlCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		CE0613D72A8B56A4001BEAEB /* SkeletonLoading */ = {
@@ -933,6 +947,7 @@
 				CED3FC5A2912234400A5603A /* OptionViewController.swift in Sources */,
 				C639F9CC2AFCBA2F0042C1DF /* AppCoordinator.swift in Sources */,
 				CED6D91F2A9F2ED6004F3828 /* StickyHeaderCollectionViewController.swift in Sources */,
+				C6C3A8C12B03554C001DFA97 /* ParentViewController.swift in Sources */,
 				CE45857E2AB2E49500251B6C /* UITableView+Extension.swift in Sources */,
 				CE0613DB2A8B584C001BEAEB /* CustomCell.swift in Sources */,
 				CE45857C2AB2E3F300251B6C /* TbStickyHeader.swift in Sources */,
@@ -962,6 +977,7 @@
 				CECD9EA82A4044F500AE2056 /* CreateXibView.swift in Sources */,
 				CE2BE7522A9312A700D7AEF7 /* PinViewToTop.swift in Sources */,
 				CE0613DF2A8B58C9001BEAEB /* SkeletonLoadable.swift in Sources */,
+				C6C3A8BF2B031D1B001DFA97 /* SegmentedControlCell.swift in Sources */,
 				CEFC9D732A5430FB00AE5E0F /* UIAnimation.swift in Sources */,
 				CECD9EB22A43F71100AE2056 /* TapPartOfText.swift in Sources */,
 				CECD9E9A2A3AA9A300AE2056 /* Preview.swift in Sources */,

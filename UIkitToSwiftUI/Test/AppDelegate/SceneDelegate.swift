@@ -20,7 +20,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        guard let _ = (scene as? UIWindowScene) else { return }
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            router.setRoot(for: window)
+//            router.setRoot(for: window)
+//            self.window = window
+            window.rootViewController = ParentViewController()
+            window.makeKeyAndVisible()
             self.window = window
         }
         

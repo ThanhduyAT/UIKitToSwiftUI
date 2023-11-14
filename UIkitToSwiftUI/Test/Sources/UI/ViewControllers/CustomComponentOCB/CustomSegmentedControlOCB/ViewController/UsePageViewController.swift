@@ -8,7 +8,102 @@
 import Foundation
 import SnapKit
 import SwiftUI
+import Parchment
 
+class SegmentedControlPagingViewController: PagingViewController {
+    override func loadView() {
+        view = SegmentedControlPagingView(
+            options: options,
+            collectionView: collectionView,
+            pageView: pageViewController.view
+        )
+    }
+}
+
+class UsePageViewController: UIViewController {
+    private let items = [
+        SegementedControlItem(index: 0, title: "Tab 1", icon: ""),
+        SegementedControlItem(index: 1, title: "Tab 2", icon: ""),
+        SegementedControlItem(index: 2, title: "Tab 3", icon: ""),
+        SegementedControlItem(index: 3, title: "Tab 4", icon: "")
+    ]
+    
+    private let viewControllers: [ColorViewController] = [
+        ColorViewController(),
+        ColorViewController(),
+        ColorViewController(),
+        ColorViewController()
+    ]
+    
+    private let pagingViewController = PagingViewController()
+    private let menuItemSize = CGSize(width: 120, height: 40)
+    private let menuInsets = UIEdgeInsets(top: 12, left: 12, bottom: 12, right: 12)
+    private var menuHeight: CGFloat {
+        return menuItemSize.height + menuInsets.top + menuInsets.bottom
+    }
+
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        addChild(pagingViewController)
+        view.addSubview(pagingViewController.view)
+        pagingViewController.didMove(toParent: self)
+        pagingViewController.view.snp.makeConstraints { make in
+            make.top.equalTo(self.view.snp.centerY)
+            make.left.right.bottom.equalToSuperview()
+        }
+//        view.constrainToEdges(pagingViewController.view)
+        
+        pagingViewController.register(SegmentedControlCell.self, for: SegementedControlItem.self)
+        pagingViewController.menuItemSize = .sizeToFit(minWidth: menuItemSize.width, height: menuItemSize.height)
+        pagingViewController.menuInsets = menuInsets
+        pagingViewController.menuItemSpacing = 8
+        pagingViewController.borderColor = UIColor(white: 0, alpha: 0.1)
+        pagingViewController.indicatorColor = .black
+        pagingViewController.backgroundColor = .red
+        pagingViewController.pageViewController.scrollView.bounces = false
+        
+        pagingViewController.indicatorOptions = .visible(
+            height: 3,
+            zIndex: Int.max,
+            spacing: UIEdgeInsets.zero,
+            insets: UIEdgeInsets.zero
+        )
+
+        pagingViewController.borderOptions = .visible(
+            height: 1,
+            zIndex: Int.max - 1,
+            insets: UIEdgeInsets(top: 0, left: 18, bottom: 0, right: 18)
+        )
+        
+        pagingViewController.dataSource = self
+        pagingViewController.delegate = self
+        
+        pagingViewController.reloadData()
+    }
+}
+
+extension UsePageViewController: PagingViewControllerDataSource {
+    func pagingViewController(_: PagingViewController, viewControllerAt index: Int) -> UIViewController {
+        let viewController = viewControllers[index]
+        let insets = UIEdgeInsets(top: menuHeight, left: 0, bottom: 0, right: 0)
+        viewController.collectionView.contentInset = insets
+        viewController.collectionView.scrollIndicatorInsets = insets
+        return viewController
+    }
+
+    func pagingViewController(_: PagingViewController, pagingItemAt index: Int) -> PagingItem {
+        return items[index]
+    }
+
+    func numberOfViewControllers(in _: PagingViewController) -> Int {
+        return items.count
+    }
+}
+
+extension UsePageViewController: PagingViewControllerDelegate {
+    
+}
 
 
 
@@ -92,10 +187,10 @@ import SwiftUI
 //    }
 //}
 //
-//struct UsePageViewController_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ViewControllerPreview {
-//            UsePageViewController()
-//        }
-//    }
-//}
+struct UsePageViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewControllerPreview {
+            UsePageViewController()
+        }
+    }
+}
