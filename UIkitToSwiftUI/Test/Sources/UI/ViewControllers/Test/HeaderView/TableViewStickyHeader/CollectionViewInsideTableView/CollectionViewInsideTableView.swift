@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import SnapKit
+import SwiftUI
 
 class DynamicHeightCollectionView: UICollectionView {
     
@@ -24,7 +25,7 @@ class DynamicHeightCollectionView: UICollectionView {
 }
 
 class CollectionViewInsideTableView: UITableViewCell {
-    lazy var collectionView: DynamicHeightCollectionView = {
+    private(set) lazy var collectionView: DynamicHeightCollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         layout.estimatedItemSize = CGSize(width: UIScreen.main.bounds.width/2-40, height: 1)
@@ -75,6 +76,11 @@ extension CollectionViewInsideTableView: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(of: CollectionViewInsideTableViewProductCardLoadingCollectionViewCell.self, indexPath: indexPath) else { return UICollectionViewCell()}
 //        cell.setName = "adsfasdfasdf"
+        if indexPath == IndexPath(item: 0, section: 0) {
+            cell.backgroundColor = .red
+        } else {
+            cell.backgroundColor = .clear
+        }
         return cell
     }
 }
@@ -125,6 +131,11 @@ class CollectionViewInsideTableViewProductCardLoadingCollectionViewCell: UIColle
         desLayer.frame = desLabel.bounds
         desLayer.cornerRadius = 20
     }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+//        backgroundColor = .clear
+    }
 }
 
 extension CollectionViewInsideTableViewProductCardLoadingCollectionViewCell: SkeletonLoadable {
@@ -173,6 +184,14 @@ extension CollectionViewInsideTableViewProductCardLoadingCollectionViewCell: Ske
             make.left.right.equalToSuperview().inset(16)
             make.height.equalTo(24)
             make.bottom.equalToSuperview()
+        }
+    }
+}
+
+struct CollectionViewInsideTableViews_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewControllerPreview {
+            TableViewController()
         }
     }
 }

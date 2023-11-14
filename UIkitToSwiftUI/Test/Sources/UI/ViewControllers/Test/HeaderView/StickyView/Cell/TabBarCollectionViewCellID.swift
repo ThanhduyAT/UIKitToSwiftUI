@@ -27,12 +27,12 @@ class TabBarCollectionViewCellID: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .blue
+//        backgroundColor = .white
         
         addSubview(titleLabel)
         titleLabel.snp.makeConstraints { make in
-            make.top.left.bottom.right.equalToSuperview()
-            make.size.equalTo(200)
+            make.centerY.equalToSuperview()
+            make.left.right.equalToSuperview().inset(30)
         }
     }
     

@@ -10,6 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    private let router = AppCoordinator().strongRouter
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -19,10 +20,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        guard let _ = (scene as? UIWindowScene) else { return }
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = CarouselCardViewController()
+            router.setRoot(for: window)
             self.window = window
-            window.makeKeyAndVisible()
         }
+        
+//        public func setRoot(for window: UIWindow) {
+//            window.rootViewController = viewController
+//            window.makeKeyAndVisible()
+//            presented(from: window)
+//        }
 
     }
 
@@ -54,6 +60,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
+
+    private func configureUI() {
+        UIView.appearance().overrideUserInterfaceStyle = .light
+    }
 
 }
 

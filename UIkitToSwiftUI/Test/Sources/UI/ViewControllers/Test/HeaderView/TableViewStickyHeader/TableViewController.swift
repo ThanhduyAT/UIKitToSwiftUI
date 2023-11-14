@@ -155,6 +155,7 @@ extension TableViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(of: CollectionViewInsideTableView.self, indexPath: indexPath) else { return UITableViewCell() }
+//        cell.collectionView.cellForItem(at: IndexPath(row: 0, section: 0))?.backgroundColor = .blue
 //        tableView.reloadData()
 //        tableView.rowHeight = cell.collectionView.contentSize.height
         return cell

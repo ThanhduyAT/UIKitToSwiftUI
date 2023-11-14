@@ -27,6 +27,9 @@ class CarouselCardViewController: UIViewController {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.delegate = self
         collectionView.dataSource = self
+        
+        collectionView.bounces = false
+        
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.register(of: CarouselCell.self)
         return collectionView

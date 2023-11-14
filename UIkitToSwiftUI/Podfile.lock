@@ -1,5 +1,9 @@
 PODS:
+  - Action (5.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - AMPopTip (4.10.0)
+  - Parchment (3.2.0)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -7,28 +11,41 @@ PODS:
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
   - SnapKit (5.6.0)
+  - XCoordinator/Core (2.2.1)
+  - XCoordinator/RxSwift (2.2.1):
+    - RxSwift (~> 6.1)
+    - XCoordinator/Core
 
 DEPENDENCIES:
+  - Action
   - AMPopTip
+  - Parchment
   - RxCocoa (~> 6)
   - RxSwift (~> 6)
   - SnapKit (~> 5.6.0)
+  - XCoordinator/RxSwift (~> 2.0)
 
 SPEC REPOS:
   trunk:
+    - Action
     - AMPopTip
+    - Parchment
     - RxCocoa
     - RxRelay
     - RxSwift
     - SnapKit
+    - XCoordinator
 
 SPEC CHECKSUMS:
+  Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
   AMPopTip: 4630471652faf06872f72a39bfcb6f5b68a7e208
+  Parchment: a43c440b22c8a60f7e0196b74339446d4d1d18ea
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  XCoordinator: 2cf9f72e10998b7a4a4bbeac3d07e071ea82fca3
 
-PODFILE CHECKSUM: c1ea3a386f22e2e82f587c7d195177a87be92573
+PODFILE CHECKSUM: 214796ba845729058acebef9b7ab7ef2a8bc939e
 
 COCOAPODS: 1.11.3

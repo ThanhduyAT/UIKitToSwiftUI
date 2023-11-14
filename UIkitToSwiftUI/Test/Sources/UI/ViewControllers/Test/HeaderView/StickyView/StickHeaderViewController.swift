@@ -17,7 +17,7 @@ let topViewFinalHeight : CGFloat = UIApplication.shared.statusBarFrame.size.heig
 let topViewHeightConstraintRange = topViewFinalHeight..<topViewInitialHeight
 
 class StickHeaderViewController: UIViewController {
-    let tabsCount = 5;
+    let tabsCount = 3;
     
     private lazy var topView: UIView = {
        let v = UIView()
@@ -47,9 +47,7 @@ class StickHeaderViewController: UIViewController {
     
     private var pageViewController = UIPageViewController()
     private var selectedTabView = UIView()
-    
     private var headerViewHeightConstraint: CGFloat = 200
-    
     private var pageCollection = PageCollection()
     
     override func viewDidLoad() {
@@ -318,6 +316,10 @@ extension StickHeaderViewController: UIPageViewControllerDelegate {
         middleCollectionView.scrollToItem(at: indexPathAtCollectionView,
                                           at: .centeredHorizontally,
                                           animated: true)
+    }
+    
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        scrollView.bounces = false
     }
 }
 

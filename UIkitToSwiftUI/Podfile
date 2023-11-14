@@ -10,6 +10,9 @@ target 'Test' do
   pod 'SnapKit', '~> 5.6.0'
   pod 'RxSwift', '~> 6'
   pod 'RxCocoa', '~> 6'
+  pod 'XCoordinator/RxSwift', '~> 2.0'
+  pod 'Action'
+  pod 'Parchment'
 
   
   target 'TestTests' do

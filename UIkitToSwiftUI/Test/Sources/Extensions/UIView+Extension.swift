@@ -28,20 +28,20 @@ extension UIView {
     func insertGradientLayer(colors: [UIColor?],
                              opacity: Float = 1,
                              direction: GradientColorDirection = .vertical) -> CAGradientLayer {
-
+        
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = colors.compactMap({$0?.cgColor})
         gradientLayer.opacity = opacity
-
+        
         if case .horizontal = direction {
             gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
             gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.0)
         }
-
+        
         gradientLayer.bounds = bounds
         gradientLayer.anchorPoint = .zero
         layer.insertSublayer(gradientLayer, at: 0)
-
+        
         return gradientLayer
     }
     
@@ -52,7 +52,30 @@ extension UIView {
         gradientLayer.endPoint = CGPoint(x: 0.5, y: 0.0)
         gradientLayer.locations = [0, 1]
         gradientLayer.frame = bounds
+        
+        layer.insertSublayer(gradientLayer, at: 0)
+    }
+}
 
-       layer.insertSublayer(gradientLayer, at: 0)
+extension UIView {
+//    @IBInspectable var cornerRadius: CGFloat {
+//        get {
+//            return layer.cornerRadius
+//        }
+//        set {
+//            layer.cornerRadius = newValue
+//        }
+//    }
+    
+    func applyShadow(
+        color: UIColor = .black,
+        alpha: Float = 0.15,
+        x: CGFloat = 0,
+        y: CGFloat = 0,
+        blur: CGFloat = 5) {
+        layer.shadowColor = color.cgColor
+        layer.shadowOpacity = alpha
+        layer.shadowOffset = CGSize(width: x, height: y)
+        layer.shadowRadius = blur
     }
 }
