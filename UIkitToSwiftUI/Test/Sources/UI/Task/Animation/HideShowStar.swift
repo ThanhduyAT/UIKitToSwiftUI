@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import SnapKit
+import SwiftUI
 
 class StarViewController : UIViewController {
     private lazy var hideShowStar: CustomStar = {
@@ -156,7 +157,6 @@ class HideShowStar: UIView {
 
 class CustomStar: UIView {
     var selectedRate: Int = 3
-    
 
     var arrUIImageView: [UIImageView] = []
     
@@ -361,5 +361,11 @@ class CustomStar: UIView {
             }
             temp += 0.5
         }
+    }
+}
+
+#Preview {
+    ViewControllerPreview {
+        StarViewController()
     }
 }

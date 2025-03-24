@@ -8,6 +8,7 @@
 import Foundation
 import SnapKit
 import UIKit
+import SwiftUI
 
 class UIAnimation: UIView {
     private lazy var testButton: UIButton = {
@@ -61,23 +62,42 @@ class UIAnimation: UIView {
 //            self.layoutIfNeeded()
 //        }
         
-        UIView.animate(withDuration: 3, delay: 1, options: [.curveEaseInOut ,.autoreverse], animations: {
-            self.tranView.snp.remakeConstraints { make in
-                make.width.equalTo(400)
-                make.height.equalTo(300)
-                make.centerX.equalToSuperview()
-                make.centerY.equalToSuperview().multipliedBy(0.5)
-            }
-            self.tranView.alpha = 0.0
-            self.layoutIfNeeded()
-        }, completion: {_ in
+        UIView.animate(withDuration: 3, delay: 0, options: [.repeat, .autoreverse]) {
             self.tranView.snp.updateConstraints { make in
-                make.width.equalTo(300)
-                make.height.equalTo(200)
-                make.centerX.equalToSuperview()
-                make.centerY.equalToSuperview().multipliedBy(0.5)
+                make.width.equalTo(400)
+                make.height.equalTo(500)
             }
-
-        })
+            
+            self.layoutIfNeeded()
+        }
+        
+//        UIView.animate(withDuration: 3, delay: 1, options: [.curveEaseInOut,.curveLinear], animations: {
+//            self.tranView.snp.remakeConstraints { make in
+//                make.width.equalTo(400)
+//                make.height.equalTo(300)
+//                make.centerX.equalToSuperview()
+//                make.centerY.equalToSuperview().multipliedBy(0.5)
+//            }
+//            self.tranView.alpha = 0.0
+//            self.layoutIfNeeded()
+//        }, completion: {_ in
+//            self.tranView.snp.updateConstraints { make in
+//                make.width.equalTo(300)
+//                make.height.equalTo(200)
+//                make.centerX.equalToSuperview()
+//                make.centerY.equalToSuperview().multipliedBy(0.5)
+//            }
+//
+//        })
     }
 }
+
+struct UIAnimation_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewPreview {
+            UIAnimation()
+        }
+    }
+}
+
+

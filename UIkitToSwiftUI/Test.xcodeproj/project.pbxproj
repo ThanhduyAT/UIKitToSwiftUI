@@ -9,6 +9,27 @@
 /* Begin PBXBuildFile section */
 		21AAB88A7BC536EA315DBE31 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BB70711EAADA787209E14F /* Pods_Test.framework */; };
 		27CCF8A2D5CAF9BC1B5739A2 /* Pods_Test_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B71C0A242FFD607770D506 /* Pods_Test_TestUITests.framework */; };
+		6306AFC02D2D1A710053978C /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306AFBF2D2D1A710053978C /* TooltipView.swift */; };
+		632AABE92D2FD42D00C70C57 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632AABE82D2FD42D00C70C57 /* TransitionViewController.swift */; };
+		6337FFBB2C7F1FA900206A96 /* TestThreadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337FFBA2C7F1FA900206A96 /* TestThreadVC.swift */; };
+		635998232BA84156001D5AB0 /* DashedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635998222BA84156001D5AB0 /* DashedBorder.swift */; };
+		635A37F22BCCE695002512A3 /* TestTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635A37F12BCCE695002512A3 /* TestTextFieldView.swift */; };
+		63A8F8D32B679945002463DE /* TagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8F8D22B679945002463DE /* TagViewController.swift */; };
+		63B487BB2C50A07B004661DD /* SkeletonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B487BA2C50A07B004661DD /* SkeletonVC.swift */; };
+		63B487BD2C50A119004661DD /* SkeletonVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B487BC2C50A119004661DD /* SkeletonVM.swift */; };
+		63B487C02C50B0DF004661DD /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 63B487BF2C50B0DF004661DD /* SkeletonView */; };
+		63B611902B444A440013DCF2 /* ScrollViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B6118F2B444A440013DCF2 /* ScrollViewControllerTest.swift */; };
+		63B6AB582C6DF4A100A1E170 /* SkeletonExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B6AB572C6DF4A100A1E170 /* SkeletonExampleVC.swift */; };
+		63BB2A092B56D52B00C0CB26 /* TestViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB2A082B56D52B00C0CB26 /* TestViewController1.swift */; };
+		63BC739F2C7C70A700ED6CE3 /* ActionWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC739E2C7C70A700ED6CE3 /* ActionWebview.swift */; };
+		63D7FE1F2C3402A70047F71E /* CountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7FE1E2C3402A70047F71E /* CountDownView.swift */; };
+		63E8D67B2B3D16C6004D7949 /* TestStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E8D67A2B3D16C6004D7949 /* TestStackView.swift */; };
+		63F0FE022D82AF3B0060ABEE /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0FE012D82AF3B0060ABEE /* ViewControllerA.swift */; };
+		63F6FBD22B6896AF00422904 /* ChipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F6FBCE2B6896AE00422904 /* ChipButton.swift */; };
+		63F6FBD32B6896AF00422904 /* ChipsExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F6FBCF2B6896AE00422904 /* ChipsExampleViewController.swift */; };
+		63F6FBD42B6896AF00422904 /* ChipsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F6FBD02B6896AE00422904 /* ChipsStackView.swift */; };
+		63F6FBD52B6896AF00422904 /* ChipsFlexBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F6FBD12B6896AE00422904 /* ChipsFlexBoxView.swift */; };
+		63F6FBDA2B689DEB00422904 /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 63F6FBD92B689DEB00422904 /* FlexLayout */; };
 		79D371A6CE6A35A54FD685B9 /* Pods_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCE3075A6D1E92D4651E900 /* Pods_TestTests.framework */; };
 		C639F9CC2AFCBA2F0042C1DF /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C639F9CB2AFCBA2F0042C1DF /* AppCoordinator.swift */; };
 		C639F9CE2AFCBC190042C1DF /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C639F9CD2AFCBC190042C1DF /* HomeCoordinator.swift */; };
@@ -106,7 +127,26 @@
 		19C270ECA7538940D8DBC13C /* Pods-Test-TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-Test-TestUITests/Pods-Test-TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		33B71C0A242FFD607770D506 /* Pods_Test_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F65E850A4EB56B8C22C0B37 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		6306AFBF2D2D1A710053978C /* TooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipView.swift; sourceTree = "<group>"; };
+		632AABE82D2FD42D00C70C57 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		6337FFBA2C7F1FA900206A96 /* TestThreadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestThreadVC.swift; sourceTree = "<group>"; };
+		635998222BA84156001D5AB0 /* DashedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedBorder.swift; sourceTree = "<group>"; };
+		635A37F12BCCE695002512A3 /* TestTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTextFieldView.swift; sourceTree = "<group>"; };
+		63A8F8D22B679945002463DE /* TagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagViewController.swift; sourceTree = "<group>"; };
+		63B487BA2C50A07B004661DD /* SkeletonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonVC.swift; sourceTree = "<group>"; };
+		63B487BC2C50A119004661DD /* SkeletonVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonVM.swift; sourceTree = "<group>"; };
+		63B6118F2B444A440013DCF2 /* ScrollViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewControllerTest.swift; sourceTree = "<group>"; };
+		63B6AB572C6DF4A100A1E170 /* SkeletonExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonExampleVC.swift; sourceTree = "<group>"; };
+		63BB2A082B56D52B00C0CB26 /* TestViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController1.swift; sourceTree = "<group>"; };
 		63BB70711EAADA787209E14F /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BC739E2C7C70A700ED6CE3 /* ActionWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionWebview.swift; sourceTree = "<group>"; };
+		63D7FE1E2C3402A70047F71E /* CountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownView.swift; sourceTree = "<group>"; };
+		63E8D67A2B3D16C6004D7949 /* TestStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStackView.swift; sourceTree = "<group>"; };
+		63F0FE012D82AF3B0060ABEE /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+		63F6FBCE2B6896AE00422904 /* ChipButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipButton.swift; sourceTree = "<group>"; };
+		63F6FBCF2B6896AE00422904 /* ChipsExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsExampleViewController.swift; sourceTree = "<group>"; };
+		63F6FBD02B6896AE00422904 /* ChipsStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsStackView.swift; sourceTree = "<group>"; };
+		63F6FBD12B6896AE00422904 /* ChipsFlexBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsFlexBoxView.swift; sourceTree = "<group>"; };
 		85C79EB9BDF0DBB4A7A801B9 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		88300024D41C750ED38D0538 /* Pods-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTests.debug.xcconfig"; path = "Target Support Files/Pods-TestTests/Pods-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BCE3075A6D1E92D4651E900 /* Pods_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AAB88A7BC536EA315DBE31 /* Pods_Test.framework in Frameworks */,
+				63B487C02C50B0DF004661DD /* SkeletonView in Frameworks */,
+				63F6FBDA2B689DEB00422904 /* FlexLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +281,100 @@
 				0A5B438FE69B156DA1653C0F /* Pods-TestTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6306AFBE2D2D1A640053978C /* ToolTip */ = {
+			isa = PBXGroup;
+			children = (
+				6306AFBF2D2D1A710053978C /* TooltipView.swift */,
+			);
+			path = ToolTip;
+			sourceTree = "<group>";
+		};
+		632AABE72D2FD42400C70C57 /* TransitionView */ = {
+			isa = PBXGroup;
+			children = (
+				632AABE82D2FD42D00C70C57 /* TransitionViewController.swift */,
+			);
+			path = TransitionView;
+			sourceTree = "<group>";
+		};
+		6337FFB92C7F1F9A00206A96 /* TestThread */ = {
+			isa = PBXGroup;
+			children = (
+				6337FFBA2C7F1FA900206A96 /* TestThreadVC.swift */,
+			);
+			path = TestThread;
+			sourceTree = "<group>";
+		};
+		635998212BA8413B001D5AB0 /* DashedBorder */ = {
+			isa = PBXGroup;
+			children = (
+				635998222BA84156001D5AB0 /* DashedBorder.swift */,
+			);
+			path = DashedBorder;
+			sourceTree = "<group>";
+		};
+		63A8F8D12B679937002463DE /* TagView */ = {
+			isa = PBXGroup;
+			children = (
+				63A8F8D22B679945002463DE /* TagViewController.swift */,
+			);
+			path = TagView;
+			sourceTree = "<group>";
+		};
+		63B487B92C50A05E004661DD /* SkeletonViewContronller */ = {
+			isa = PBXGroup;
+			children = (
+				63B487BA2C50A07B004661DD /* SkeletonVC.swift */,
+				63B487BC2C50A119004661DD /* SkeletonVM.swift */,
+				63B6AB572C6DF4A100A1E170 /* SkeletonExampleVC.swift */,
+			);
+			path = SkeletonViewContronller;
+			sourceTree = "<group>";
+		};
+		63BC739D2C7C707800ED6CE3 /* ActionWebView */ = {
+			isa = PBXGroup;
+			children = (
+				63BC739E2C7C70A700ED6CE3 /* ActionWebview.swift */,
+			);
+			path = ActionWebView;
+			sourceTree = "<group>";
+		};
+		63D7FE1D2C3402960047F71E /* CountDownView */ = {
+			isa = PBXGroup;
+			children = (
+				63D7FE1E2C3402A70047F71E /* CountDownView.swift */,
+			);
+			path = CountDownView;
+			sourceTree = "<group>";
+		};
+		63E8D6792B3D1675004D7949 /* TestView */ = {
+			isa = PBXGroup;
+			children = (
+				63E8D67A2B3D16C6004D7949 /* TestStackView.swift */,
+				635A37F12BCCE695002512A3 /* TestTextFieldView.swift */,
+			);
+			path = TestView;
+			sourceTree = "<group>";
+		};
+		63F0FE002D82AF2E0060ABEE /* TaskViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63F0FE012D82AF3B0060ABEE /* ViewControllerA.swift */,
+			);
+			path = TaskViewController;
+			sourceTree = "<group>";
+		};
+		63F6FBCD2B6896AE00422904 /* Chips */ = {
+			isa = PBXGroup;
+			children = (
+				63F6FBCE2B6896AE00422904 /* ChipButton.swift */,
+				63F6FBCF2B6896AE00422904 /* ChipsExampleViewController.swift */,
+				63F6FBD02B6896AE00422904 /* ChipsStackView.swift */,
+				63F6FBD12B6896AE00422904 /* ChipsFlexBoxView.swift */,
+			);
+			path = Chips;
 			sourceTree = "<group>";
 		};
 		C639F9C92AFCB98E0042C1DF /* XcoordinatorVC */ = {
@@ -495,6 +631,10 @@
 		CE6D9BB82AE2725B00480BA6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				63F0FE002D82AF2E0060ABEE /* TaskViewController */,
+				6337FFB92C7F1F9A00206A96 /* TestThread */,
+				63BC739D2C7C707800ED6CE3 /* ActionWebView */,
+				63B487B92C50A05E004661DD /* SkeletonViewContronller */,
 				C6A0F5042B01D8D2002E8E55 /* CustomComponentOCB */,
 				C639F9C92AFCB98E0042C1DF /* XcoordinatorVC */,
 				CE6D9BBA2AE272E600480BA6 /* Test */,
@@ -505,6 +645,11 @@
 		CE6D9BB92AE2726400480BA6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				63D7FE1D2C3402960047F71E /* CountDownView */,
+				635998212BA8413B001D5AB0 /* DashedBorder */,
+				63F6FBCD2B6896AE00422904 /* Chips */,
+				63A8F8D12B679937002463DE /* TagView */,
+				63E8D6792B3D1675004D7949 /* TestView */,
 				CE6D9BC22AE27E9000480BA6 /* OTPStackView */,
 				CECD9EB12A43F71100AE2056 /* TapPartOfText.swift */,
 				CE6D9BBF2AE276CD00480BA6 /* CustomView */,
@@ -517,7 +662,10 @@
 		CE6D9BBA2AE272E600480BA6 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				632AABE72D2FD42400C70C57 /* TransitionView */,
+				6306AFBE2D2D1A640053978C /* ToolTip */,
 				CE076D542951A0650063F45B /* CustomSegmentedControl.swift */,
+				63B6118F2B444A440013DCF2 /* ScrollViewControllerTest.swift */,
 				CEFC9D722A5430FB00AE5E0F /* UIAnimation.swift */,
 				CE0613D72A8B56A4001BEAEB /* SkeletonLoading */,
 				CE2BE7502A93129900D7AEF7 /* HeaderView */,
@@ -525,6 +673,7 @@
 				CE9B81802AA9B32F00A9B798 /* CardView */,
 				CED3FC592912234400A5603A /* OptionViewController.swift */,
 				CE2BE7602A96591000D7AEF7 /* CollectionViewTest.swift */,
+				63BB2A082B56D52B00C0CB26 /* TestViewController1.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -704,6 +853,10 @@
 			dependencies = (
 			);
 			name = Test;
+			packageProductDependencies = (
+				63F6FBD92B689DEB00422904 /* FlexLayout */,
+				63B487BF2C50B0DF004661DD /* SkeletonView */,
+			);
 			productName = Test;
 			productReference = CED3FC522912234400A5603A /* Test.app */;
 			productType = "com.apple.product-type.application";
@@ -779,6 +932,10 @@
 				Base,
 			);
 			mainGroup = CED3FC492912234400A5603A;
+			packageReferences = (
+				63F6FBD82B689DEB00422904 /* XCRemoteSwiftPackageReference "FlexLayout" */,
+				63B487BE2C50B0DF004661DD /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
 			productRefGroup = CED3FC532912234400A5603A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -928,8 +1085,12 @@
 			files = (
 				CE45857B2AB2E3F300251B6C /* TbStickyHeaderView.swift in Sources */,
 				CE9B817B2AA4AF0500A9B798 /* TabBarCollectionViewCellID.swift in Sources */,
+				63F6FBD52B6896AF00422904 /* ChipsFlexBoxView.swift in Sources */,
 				CE75C3F82A4D8F8F00350F2F /* PopupSuccess.swift in Sources */,
 				CE076D552951A0650063F45B /* CustomSegmentedControl.swift in Sources */,
+				63BC739F2C7C70A700ED6CE3 /* ActionWebview.swift in Sources */,
+				635A37F22BCCE695002512A3 /* TestTextFieldView.swift in Sources */,
+				63BB2A092B56D52B00C0CB26 /* TestViewController1.swift in Sources */,
 				CED6D91B2A9F1C49004F3828 /* StickyHeaderCollectionViewFlowLayout.swift in Sources */,
 				CE4E8EA32A9CA7B700F277E1 /* CALayer+Extension.swift in Sources */,
 				CEDF05C72A600428005D9289 /* HideShowStar.swift in Sources */,
@@ -938,18 +1099,22 @@
 				CE2BE76E2A97A62600D7AEF7 /* StickyViewController.swift in Sources */,
 				C639F9D42AFCC72F0042C1DF /* Transition.swift in Sources */,
 				C639F9D62AFCCDB30042C1DF /* NewsCoordinator.swift in Sources */,
+				63B487BD2C50A119004661DD /* SkeletonVM.swift in Sources */,
 				CE4E8EAF2A9DB09F00F277E1 /* UIColor+Extension.swift in Sources */,
 				C639F9E72AFDD0190042C1DF /* LoginViewModel.swift in Sources */,
+				63F6FBD42B6896AF00422904 /* ChipsStackView.swift in Sources */,
 				CECCD3552AB01D9E008FB5AE /* CarouselCardViewController.swift in Sources */,
 				CE6D9BC42AE27EB200480BA6 /* OTPStackView.swift in Sources */,
 				CE6D9BC62AE27F7400480BA6 /* OTPTextField.swift in Sources */,
 				CE9B81782AA4ABFB00A9B798 /* StickHeaderViewController.swift in Sources */,
 				CED3FC5A2912234400A5603A /* OptionViewController.swift in Sources */,
+				63B611902B444A440013DCF2 /* ScrollViewControllerTest.swift in Sources */,
 				C639F9CC2AFCBA2F0042C1DF /* AppCoordinator.swift in Sources */,
 				CED6D91F2A9F2ED6004F3828 /* StickyHeaderCollectionViewController.swift in Sources */,
 				C6C3A8C12B03554C001DFA97 /* ParentViewController.swift in Sources */,
 				CE45857E2AB2E49500251B6C /* UITableView+Extension.swift in Sources */,
 				CE0613DB2A8B584C001BEAEB /* CustomCell.swift in Sources */,
+				635998232BA84156001D5AB0 /* DashedBorder.swift in Sources */,
 				CE45857C2AB2E3F300251B6C /* TbStickyHeader.swift in Sources */,
 				C639F9F02AFDD3E30042C1DF /* BindableType.swift in Sources */,
 				CECCD3762AB2E284008FB5AE /* TableViewController.swift in Sources */,
@@ -958,8 +1123,12 @@
 				C639F9E62AFDD0190042C1DF /* LoginViewModelImpl.swift in Sources */,
 				C639F9E92AFDD0190042C1DF /* LoginViewController.swift in Sources */,
 				CE4585802AB2E5D800251B6C /* UIScrollView+Extension.swift in Sources */,
+				63F0FE022D82AF3B0060ABEE /* ViewControllerA.swift in Sources */,
+				63D7FE1F2C3402A70047F71E /* CountDownView.swift in Sources */,
 				C639F9F12AFDD3E30042C1DF /* NibIdentifiable.swift in Sources */,
+				6306AFC02D2D1A710053978C /* TooltipView.swift in Sources */,
 				CE2BE7612A96591000D7AEF7 /* CollectionViewTest.swift in Sources */,
+				63F6FBD32B6896AF00422904 /* ChipsExampleViewController.swift in Sources */,
 				C6A0F5102B01E2A4002E8E55 /* UsePageViewController.swift in Sources */,
 				CE9B81822AA9B34400A9B798 /* CardPagingLayout.swift in Sources */,
 				C69DDA1E2B025C8200BAFF8D /* SegementedControlItem.swift in Sources */,
@@ -974,21 +1143,28 @@
 				C69DDA202B025D9500BAFF8D /* SegmentedControlPagingView.swift in Sources */,
 				CE6D9BC12AE276E000480BA6 /* PaddingLabel.swift in Sources */,
 				CED6D9212A9F3737004F3828 /* StickyFooterCollectionViewFlowLayout.swift in Sources */,
+				6337FFBB2C7F1FA900206A96 /* TestThreadVC.swift in Sources */,
+				63B6AB582C6DF4A100A1E170 /* SkeletonExampleVC.swift in Sources */,
 				CECD9EA82A4044F500AE2056 /* CreateXibView.swift in Sources */,
+				63E8D67B2B3D16C6004D7949 /* TestStackView.swift in Sources */,
 				CE2BE7522A9312A700D7AEF7 /* PinViewToTop.swift in Sources */,
 				CE0613DF2A8B58C9001BEAEB /* SkeletonLoadable.swift in Sources */,
 				C6C3A8BF2B031D1B001DFA97 /* SegmentedControlCell.swift in Sources */,
 				CEFC9D732A5430FB00AE5E0F /* UIAnimation.swift in Sources */,
 				CECD9EB22A43F71100AE2056 /* TapPartOfText.swift in Sources */,
+				63F6FBD22B6896AF00422904 /* ChipButton.swift in Sources */,
 				CECD9E9A2A3AA9A300AE2056 /* Preview.swift in Sources */,
 				C639F9D12AFCC2570042C1DF /* LoginViewControllerC.swift in Sources */,
 				C639F9DA2AFCD07D0042C1DF /* AccountCoordinator.swift in Sources */,
+				63B487BB2C50A07B004661DD /* SkeletonVC.swift in Sources */,
+				632AABE92D2FD42D00C70C57 /* TransitionViewController.swift in Sources */,
 				CE6D9BBE2AE2749A00480BA6 /* ViewPreview.swift in Sources */,
 				CECAB1312AB39687001C5D9D /* CollectionViewInsideTableView.swift in Sources */,
 				CE3BA4B12A497A7700C2DE8F /* ResponseView.swift in Sources */,
 				CED3FC582912234400A5603A /* SceneDelegate.swift in Sources */,
 				CE4E8EAD2A9DAFF100F277E1 /* GradientView.swift in Sources */,
 				CE9B817F2AA4B2A000A9B798 /* TabTableViewCell.swift in Sources */,
+				63A8F8D32B679945002463DE /* TagViewController.swift in Sources */,
 				C6A0F50D2B01E15F002E8E55 /* ColorViewController.swift in Sources */,
 				CE4E8EA52A9CABD600F277E1 /* UIBezierPath+Extension.swift in Sources */,
 			);
@@ -1158,6 +1334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QKSB72LS38;
@@ -1167,6 +1344,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1174,6 +1352,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = duytruong.okxe.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1186,6 +1365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QKSB72LS38;
@@ -1195,6 +1375,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1202,6 +1383,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = duytruong.okxe.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1328,6 +1510,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63B487BE2C50B0DF004661DD /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.31.0;
+			};
+		};
+		63F6FBD82B689DEB00422904 /* XCRemoteSwiftPackageReference "FlexLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/FlexLayout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63B487BF2C50B0DF004661DD /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63B487BE2C50B0DF004661DD /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+		63F6FBD92B689DEB00422904 /* FlexLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63F6FBD82B689DEB00422904 /* XCRemoteSwiftPackageReference "FlexLayout" */;
+			productName = FlexLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CED3FC4A2912234400A5603A /* Project object */;
 }

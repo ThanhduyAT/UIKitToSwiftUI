@@ -53,11 +53,11 @@ class CollectionViewInsideTableView: UITableViewCell {
         super.init(coder: coder)
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        collectionView.reloadData()
-    }
+//    override func layoutSubviews() {
+//        super.layoutSubviews()
+//        
+//        collectionView.reloadData()
+//    }
 }
 
 extension CollectionViewInsideTableView: UICollectionViewDelegateFlowLayout {

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import SwiftUI
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -22,7 +22,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let window = UIWindow(windowScene: windowScene)
 //            router.setRoot(for: window)
 //            self.window = window
-            window.rootViewController = ParentViewController()
+            
+            let rootVC = UINavigationController(rootViewController: TaskViewControllerA())
+            window.rootViewController = rootVC
             window.makeKeyAndVisible()
             self.window = window
         }

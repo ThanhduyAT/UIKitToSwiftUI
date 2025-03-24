@@ -37,6 +37,8 @@ class PinViewToTop: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//        title = "ABC"
+        
         // create a vertical stack view
         let stack = UIStackView()
         stack.axis = .vertical

@@ -23,9 +23,9 @@ class TableViewController: UIViewController {
         let t = UITableView(frame: .zero, style: .plain)
         t.dataSource = self
         t.delegate = self
-        t.backgroundColor = .red
+        t.backgroundColor = .blue
         t.bounces = false
-        t.contentInsetAdjustmentBehavior = .never
+//        t.contentInsetAdjustmentBehavior = .never
         t.rowHeight = UITableView.automaticDimension
         t.estimatedRowHeight = 100
         t.translatesAutoresizingMaskIntoConstraints = false

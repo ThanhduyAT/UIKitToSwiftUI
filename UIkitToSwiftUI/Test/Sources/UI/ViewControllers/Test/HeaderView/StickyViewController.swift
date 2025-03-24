@@ -38,6 +38,7 @@ class StickyViewController: UIViewController {
         let v = UIScrollView()
         v.backgroundColor = .systemBlue
         v.bounces = false
+        v.contentInsetAdjustmentBehavior = .never
         v.translatesAutoresizingMaskIntoConstraints = false
         return v
     }()
@@ -182,7 +183,9 @@ class StickyViewController: UIViewController {
         let frameG = scrollView.frameLayoutGuide
         
         scrollView.snp.makeConstraints { make in
-            make.left.right.bottom.top.equalTo(safeG)
+            make.left.right.equalToSuperview()
+            make.bottom.equalToSuperview()
+            make.top.equalTo(view.layoutMargins.top)
         }
         
         yellowView.snp.makeConstraints { make in
