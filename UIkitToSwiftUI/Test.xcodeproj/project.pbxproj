@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -229,6 +229,10 @@
 		CEFC9D722A5430FB00AE5E0F /* UIAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimation.swift; sourceTree = "<group>"; };
 		EDC72BADDF3869F0D87C5E4F /* Pods-Test-TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-TestUITests.release.xcconfig"; path = "Target Support Files/Pods-Test-TestUITests/Pods-Test-TestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		630D8D8D2DDF11320022BB23 /* RatingView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = RatingView; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CED3FC4F2912234400A5603A /* Frameworks */ = {
@@ -638,6 +642,7 @@
 				C6A0F5042B01D8D2002E8E55 /* CustomComponentOCB */,
 				C639F9C92AFCB98E0042C1DF /* XcoordinatorVC */,
 				CE6D9BBA2AE272E600480BA6 /* Test */,
+				630D8D8D2DDF11320022BB23 /* RatingView */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -851,6 +856,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				630D8D8D2DDF11320022BB23 /* RatingView */,
 			);
 			name = Test;
 			packageProductDependencies = (
